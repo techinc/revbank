@@ -3,6 +3,7 @@
 HELP "<account>" => "[Pay with your account and] show balance";
 HELP "list" => "List accounts and balances";
 HELP "shame" => "Display Hall of Shame (negative balances)";
+HELP "printbarcodes" => "Sends a scannable barcode list of users to the printer";
 
 sub command :Tab(list,ls,shame,USERS) {
     my ($self, $cart, $command) = @_;
@@ -10,6 +11,7 @@ sub command :Tab(list,ls,shame,USERS) {
     return $self->list  if $command eq 'list';
     return $self->list  if $command eq 'ls';
     return $self->shame if $command eq 'shame';
+    return $self->printbarcodes  if $command eq 'printbarcodes';
 
     my $user = parse_user($command)
         or return NEXT;
@@ -48,3 +50,11 @@ sub balance {
     say "NB: Products/amounts/commands FIRST, username LAST.";
     return ABORT;
 }
+
+sub printbarcodes {
+   say "Making contact with indicio";
+   system "~/revbank/printbarcodelist.sh";
+   say "Printing list, check the printer";
+   return ACCEPT;
+}
+  

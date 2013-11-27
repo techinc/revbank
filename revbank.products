@@ -1,25 +1,45 @@
-### THIS IS THE EXAMPLE FILE; DON'T ADD PRODUCTS, BUT MAKE A NEW FILE ###
-
-
 # Empty lines and lines beginning with # are ignored.
 
 # All other lines should have three fields, whitespace separated. The first two
 # fields are barcode/productID and price, the third field is the description.
 # Only the last field may have whitespace.
 
-# Free stuff
-649241869825    0.00    Free disgusting stuff (LS)
-57063003        0.00    Free Stimorol
+# Club-Mate
+4029764001807	2.00	Club-Mate
+4029764001883	2.00	Club-Mate Cola
+4029764001401	2.00	Club-Mate Granat
+4029764001869	2.00	Club-Mate Winter-Edition
 
-# Water
-5400151013112   0.50    Carbonated mineral water
-5400155056542   0.50    Mineral water
+
+# Beer
+87167269	1.00	Grolsch
+87148169	1.00	Bavaria
+5410228080459   1.00    Jupiler
+8712000032777   1.00    Heineken
+8710614301029   1.00    Dommelsch
+8714800001151	1.00	Bavaria fles
+54057012	1.00	Palm fles
+5410228142027	1.00	Jupiler fles
+8710956001151	1.00	Hertog Jan
+4000856005101	1.00	Warsteiner
+
+
 
 # Soda
-5449000014535   0.70    Sprite
-5449000000996   0.70    Coca-Cola
+5000112544572	0.20	Coca-Cola Light
+5000112544633	0.20 	Coca-Cola Regular	
+4060800104045	1.00	Pepsi Max
 
-# Chips
-05414359710322  0.50    Chips
-05414359710315  0.50    Chips
-zakjechips      0.50    Chips
+8718265745421   0.20    Orange Juice
+
+8710400456742	0.05	Sambal 
+
+8710400406198	0.20	Choco Sticks
+
+8717399850858	0.05	Dilutable Fruit Drink
+
+8710437004626   0.005   poedersuiker
+
+4260031875008   2       Sauer
+
+
